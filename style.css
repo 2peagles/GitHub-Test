@@ -1,7 +1,41 @@
 body{
     background-color: aquamarine;
+    border: solid ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
 }
-.text{
-font-size: 200%;
-color:pink;
+
+.section{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:50vh;
+}
+.grid-wrapper{
+    display:grid;
+    grid:gap 200 px;
+}
+.box > img {
+    width :100%
+}
+.box{
+    background-color: aliceblue;
+    padding: 50px;
+    margin:10px;
+    color:pink;
+    background-color:black;
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.img-inside {
+    width :450px;
+    height:300px;
+    margin:10px;
+    transition:  all 1s;
+}
+.img-inside:hover{
+    transform:scale(1.1);
 }
