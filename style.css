@@ -1,5 +1,5 @@
 body{
-    background:linear-gradient(to right, rgb(42, 244, 230), rgb(199, 240, 245));
+    background:linear-gradient(to right, rgb(245, 245, 255), rgb(161, 215, 222));
     font-family:'Courier New', Courier, monospace;
     text-align: center;
     text-transform: capitalize;
@@ -13,7 +13,7 @@ body{
     width :100%
 }
 .box{
-    background: linear-gradient(to right, rgb(242, 207, 207), rgb(240, 207, 210));
+    background: white;
     padding: 10px;
     margin:20px;
     color:black;
@@ -43,7 +43,7 @@ body{
     flex-wrap:wrap;
     width:115em;;
     height:50vh;
-    border: solid pink 10px;
+    border: solid white 5px;
     /*padding:5px;*/
 }
 .picture-show{
