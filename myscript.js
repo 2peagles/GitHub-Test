@@ -1,23 +1,26 @@
-function myfunction ( ){
-    alert ('Hi there,your pretty')
-}
-let slideIndex = [1,1];
-/* Class the members of each slideshow group with different CSS classes */
-let slideId = ["mySlides1", "mySlides2"]
-showSlides(1, 0);
-showSlides(1, 1);
+  alert ('Hello There!');
+ 
+  const person = {
+    name: 'Precious',
+    age: 20
+  };
+  console.log(person);
 
-function plusSlides(n, no) {
-  showSlides(slideIndex[no] += n, no);
-}
+let i = 0 ;
+let images = [ ];
+let time= 2000;
 
-function showSlides(n, no) {
-  let i;
-  let x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}
-  if (n < 1) {slideIndex[no] = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+images[0] = './images/beach.jpg.jpg'; 
+images[1] = './images/waterfall.jpg.jpg'; 
+
+function changeImg ( ) {
+  document.Slide.src = images [ i ];
+  if (i < images.length - 1 ){
+      i++;
+  } else {
+    i = 0;
   }
-  x[slideIndex[no]-1].style.display = "block";
+  setTimeout("changImg( )", time)
 }
+
+window.onload =changeImg;

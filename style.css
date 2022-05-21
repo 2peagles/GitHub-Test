@@ -43,7 +43,7 @@ body{
     flex-wrap:wrap;
     width:115em;;
     height:50vh;
-    border: solid white 5px;
+    border: solid white 2px;
     /*padding:5px;*/
 }
 .picture-show{
