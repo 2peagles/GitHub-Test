@@ -46,3 +46,10 @@ body{
     border: solid pink 10px;
     /*padding:5px;*/
 }
+.picture-show{
+    background:linear-gradient(to right, rgb(242, 207, 207), rgb(240, 207, 210));
+    width :350px;
+    height:300px;
+    margin:10px;
+    transition:  all 1s;
+}
